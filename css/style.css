@@ -38,7 +38,10 @@ body {
 
 .features {
   background-color: lightgreen;
-  grid-column: center-start/center-end; }
+  grid-column: center-start/center-end;
+  display: grid;
+  grid-column: repeat(3, 1fr);
+  grid-gap: 6rem; }
 
 .story_pictures {
   background-color: lightyellow;
