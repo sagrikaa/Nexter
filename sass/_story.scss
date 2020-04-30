@@ -1,0 +1,12 @@
+.story {
+    &_pictures {
+        background-color: lightyellow;
+        grid-column: full-start/col-end 4;
+
+    }
+
+    &_content {
+        background-color: limegreen;
+        grid-column: col-start 5/full-end;
+    }
+}
