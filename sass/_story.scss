@@ -1,4 +1,5 @@
 .story {
+
     &_pictures {
         background-color: lightyellow;
         grid-column: full-start/col-end 4;
@@ -6,7 +7,19 @@
     }
 
     &_content {
-        background-color: limegreen;
+        background-color: $color-grey-light-1;
         grid-column: col-start 5/full-end;
+        padding: 6rem 12rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        color: $color-grey-dark-1;
+        margin-bottom: 8rem;
     }
 }
