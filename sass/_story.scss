@@ -27,19 +27,23 @@
 
     &_content {
         background-color: $color-grey-light-1;
-        grid-column: col-start 5/full-end;
-        padding: 6rem 12rem;
-        
+        grid-column: col-start 5/-1;
+        padding: 6rem 10vw;
 
-        // display: grid;
+        // display: flex;
+        // flex-direction: column;
         // align-items: center;
-        // justify-items: center;
+        // justify-content: center;
+
+        display: grid;
+        align-content: center;
+        justify-items: start;
 
     }
 
     &__text {
         font-size: 1.6rem;
         color: $color-grey-dark-1;
-        margin-bottom: 8rem;
+        margin-bottom: 6rem;
     }
 }
